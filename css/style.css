@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: Cabin;
+    margin: 40px 52px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.header-navigation-menu ul {
+    display: flex;
+    gap: 58px;
+    align-items: center;
+
+}
+
+.header-navigation-menu a {
+    color: #0E0F13;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 125%; /* 25px */
+    text-decoration: none;
+}
+
+.header-navigation-menu a.active {
+    color: #FF9C9C;
+}
+
+.header-signin {
+    font-size: 18px;
+}
+.button{
+    display: flex;
+}
+.Sign_in{
+    display: flex;
+    color: #0E0F13;
+    text-align: center;
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 100%; 
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: 1px solid #DADADA;
+    background: #ffffff;
+    padding: 18px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: auto;
+
+}
+.Sign_up{
+    color: #ffffff;
+    text-align: center;
+    font-family: Cabin;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: 1px solid #425DF8;
+    background: #425DF8;
+    display: flex;
+    padding: 18px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+/*----------------------------------------------------------------------*/
+
+body{
+    font-family: "Cabin";
+}
+
+
+.about{
+    padding: 60px 0 84px 0;
+}
+
+.wrapper{
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.about-title{
+    color: #0E0F13;
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.about-items{
+    display: flex;
+    gap: 66px;
+}
+
+.about-item{
+    margin-top:  100px;
+    border-radius: 4px;
+    border: 1.4px solid #E0E3EB;
+    background: #FFF;
+    padding: 20px 20px 40px 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 18px;
+}
+
+
+.item-title{
+    
+    color:#3D445C;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+
+.item-text{
+    color: #858EAD;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.days{
+    color: #7F828A;
+    text-align: center;
+    font-family: Cabin;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top:  18px;
+}
+.ul{
+	list-style: none;
+    
+}
+.ul li{
+    display: flex;
+    color: #7F828A;
+    font-family: Cabin;
+    padding-bottom: 14px;
+    text-align:  center;
+    
+}
+.ul li p{
+    padding-left: 10px;
+}
+.about-item{
+    align-items: center;
+    border-radius: 24px;
+}
+.w{
+    padding-top: 5px;
+    color: #0E0F15;
+    font-family: Cabin;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 37.5px */
+}
+.p1{
+    color: #7F828A;
+    font-family: Cabin;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    width: 200px;
+    text-align: center;
+    display: flex;
+}
+.price{
+    display: flex;
+}
+.price h2{
+    color: #0E0F15;
+    text-align: right;
+    font-family: Cabin;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: -2.56px;
+}
+.price p{
+    color: #7F828A;
+    font-family: Cabin;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding-top: 17px;
+    padding-left: 15px;
+}
+.about-item button{
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.about-blue{
+    margin-top:  100px;
+    border: 1.4px solid #161A34;
+    background: #161A34;
+    padding: 20px 20px 40px 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    border-radius: 24px;
+    margin-top: 50px;
+}
+.about-blue h2{
+    color: #ffffff;
+}
+.about-blue p{
+    color: #ffffff;
+}
+.about-blue button{
+    margin-top: 95px;
+}
+.border{
+    height: 2px;
+    margin-top: 50px;
+    align-self: stretch;
+    background: #0E0F13;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 25px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.last{
+    color: #7F828A;
+    text-align: right;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
